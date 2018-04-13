@@ -27,6 +27,7 @@ the baseline model but struggled with the disagree class (0.56% F1-score). Resul
 
 
 __Validation Set__
+
 | | Agree  | Disagree | Discuss | Unrelated |
 | ------------- | ------------- | ------------- |------------- | ------------- |
 | Agree | 107    |    25     |    215    |    21     |
@@ -36,6 +37,7 @@ __Validation Set__
 | Score: 1846.75 out of 2256.75 (81.83%) | | | | |
 
 __Test Set__
+
 | | Agree  | Disagree | Discuss | Unrelated |
 | ------------- | ------------- | ------------- |------------- | ------------- |
 | Agree | 425    |    60     |   1281    |    137    |
