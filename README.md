@@ -12,7 +12,7 @@ and the body of an article have the same claim. The stance can be categorized as
 We use the publicly available [FNC-1 dataset](https://github.com/FakeNewsChallenge/fnc-1/). This dataset is divided into a training set and a testing set. 
 The ratio of training data over testing data is about 2:1. Every data sample is a pair of a headline and a body. Dataset is severely imbalanced:
 “unrelated” data takes the majority (over 70%) in both sets while the percentage of “disagree” is less than 3%. The percentage of “agree” and “discuss” are less than 20% and 10%, 
-respectively. We used [FNC-1 official baseline](https://github.com/FakeNewsChallenge/fnc-1) to compare our results.
+respectively. We used [FNC-1 official baseline](https://github.com/FakeNewsChallenge/fnc-1-baseline) to compare our results.
 
 ## Procedure
 Bag of Words and TF-IDF models are implemented from scratch to extract vector representations of headline and bodies, while gensim's Word2Vec library is used as well.
